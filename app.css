@@ -1,0 +1,47 @@
+
+* {
+  box-sizing: border-box;
+}
+html {
+  background: #fff;
+  font-size: 16px;
+}
+body {
+  margin: 0 auto;
+  padding: 0;
+  max-width: 400px;
+  font-family: Arial, sans-serif;
+  color: #444;
+}
+header {
+  margin: 50px 0;
+  text-align: center;
+}
+h1 {
+  font-weight: 300;
+  font-size: 2rem;
+  letter-spacing: 0.6rem;
+  border-bottom: 1px solid #357ae8;
+  margin-bottom: 0;
+}
+header > p {
+  margin: 5px 0 0 0;
+  font-size: 0.9rem;
+}
+.chrome {
+  margin: 0 auto;
+}
+form {
+  margin: 50px 0;
+}
+label,
+label > span {
+  display: block;
+  font-weight: bolder;
+}
+label {
+  margin-bottom: 1rem;
+}
+input {
+  width: 100%;
+}
