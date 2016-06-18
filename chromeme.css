@@ -1,0 +1,68 @@
+
+.chrome {
+  box-sizing: border-box;
+  width: 299px;
+  height: 117px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 2px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  padding: 26px 26px 22px 13px;
+  background: #fff;
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  position: relative;
+}
+.chrome > a {
+  color: #666;
+  font-size: 22px;
+  height: 9px;
+  opacity: 0.8;
+  position: absolute;
+  right: 14px;
+  top: 4px;
+  text-decoration: none;
+  width: 9px;
+}
+.chrome > a:hover {
+  opacity: 1;
+}
+.chrome__message {
+  padding: 0;
+  width: 258px;
+  display: flex;
+}
+.chrome__message > img {
+  flex-basis: 48px;
+  align-self: center;
+}
+.chrome__text {
+  padding-left: 13px;
+}
+.chrome__text > p {
+  color: #666;
+  line-height: 17px;
+  margin: 0 0 5px 0;
+}
+.chrome__text > a {
+  color: #fff;
+  cursor: default;
+  text-decoration: none;
+  background: #4d90fe;
+  border-color: #3079ed;
+  margin-top: 15px;
+  border: 1px solid #4285f4;
+  font-weight: bold;
+  outline: none;
+  display: inline-block;
+  line-height: 28px;
+  padding: 0 12px;
+  border-radius: 2px;
+}
+.chrome__text > a:hover {
+  background: #357ae8;
+  border-color: #2f5bb7;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+}
+.chrome__text > a:active {
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.16);
+}
